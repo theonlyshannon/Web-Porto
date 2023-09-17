@@ -1,5 +1,5 @@
 // hamburger
-const hamburger = document.querySelector('#hamburger');
+const hamburger = document.querySelector('#hamburger'); // untuk membuat navbar menjadi menu hamburger
 const navMenu = document.querySelector('#nav-menu')
 
 hamburger.addEventListener('click', function(){
@@ -8,8 +8,8 @@ hamburger.addEventListener('click', function(){
 });
 
 // navbar fixed 
-window.onscroll = function() {
-    const header = document.querySelector('header');
+window.onscroll = function() { 
+    const header = document.querySelector('header'); // untuk fungsi navbar onscroll
     const fixedNav = header.offsetTop;
 
     if(window.pageYOffset > fixedNav) {

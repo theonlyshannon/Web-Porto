@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */ /*untuk mengkonfigurasi dari tailwind */
 module.exports = {
   content: ['index.html'],
   theme: {
